@@ -5,7 +5,8 @@ def initialize(name)
 end
 
 def add_appointment(appointment)
-
+  appointment.patient = self
+  @appointments<<appointment
 end
 
 end
