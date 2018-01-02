@@ -1,5 +1,5 @@
 class Doctor
-attr_accessor :name,:appointments,:patients
+attr_accessor :name,:appointments
 
   def initialize(name)
     @name=name
@@ -12,7 +12,9 @@ attr_accessor :name,:appointments,:patients
   end
 
   def patients
-
+    self.appointments.collect do |song|
+      song.genre
+    end
   end
 
 
