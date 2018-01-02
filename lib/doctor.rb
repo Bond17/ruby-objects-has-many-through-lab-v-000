@@ -12,7 +12,7 @@ attr_accessor :name,:appointments
   end
 
   def patients
-    self.appointments.collect do |song|
+    self.appointments.collect do |appointment|
       song.genre
     end
   end
