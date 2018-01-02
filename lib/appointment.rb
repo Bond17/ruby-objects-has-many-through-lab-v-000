@@ -1,7 +1,8 @@
 class Appointment
+attr_accessor :name,:doctor
 
-def initialize
-
+def initialize(name)
+  @name
 end
 
 end
