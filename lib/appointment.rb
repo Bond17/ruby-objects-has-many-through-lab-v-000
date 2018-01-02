@@ -1,7 +1,7 @@
 class Appointment
 attr_accessor :name,:doctor
 
-def initialize(name)
+def initialize(day,date,name)
   @name = name
 end
 
