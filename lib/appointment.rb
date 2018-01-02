@@ -3,7 +3,7 @@ attr_accessor :name,:doctor,:date
 
 def initialize(date,name)
   @name = name
-  @date=date
+  @date = date
 end
 
 end
