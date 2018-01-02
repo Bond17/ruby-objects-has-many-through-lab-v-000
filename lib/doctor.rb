@@ -13,7 +13,7 @@ attr_accessor :name,:appointments
 
   def patients
     self.appointments.collect do |appointment|
-      song.genre
+      appointment.patient
     end
   end
 
