@@ -13,7 +13,7 @@ attr_accessor :name,:appointments
 
   def patients
     self.appointments.collect do |appointment|
-      appointment.patient
+      appointment.name
     end
   end
 
